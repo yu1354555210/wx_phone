@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <input type="text" placeholder="请输入手机号" bindinput="input"  />
+  <button type="primary" bindtap="btnClick"> 查询 </button>
+  <view class="text">
+    {{expressInfo.province}} {{expressInfo.city}} {{expressInfo.company}}
+  </view>
+</view>
